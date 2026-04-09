@@ -4,7 +4,7 @@ from datetime import datetime
 from google import genai
 
 # 🔑 Paste your Gemini API key here
-client = genai.Client(api_key="AIzaSyBV9GeLaYTPS1AYC_uhS5sYEZRUKtljfWU")
+client = genai.Client(api_key="API")
 
 # 🎨 Page Config
 st.set_page_config(page_title="AI Expense Tracker", layout="wide")
